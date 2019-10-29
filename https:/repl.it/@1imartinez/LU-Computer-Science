@@ -1,0 +1,11 @@
+#Part 1
+V = 2
+
+vowels = (V)
+consonants =  9 - vowels
+
+word = 'blockjock'
+new_word = word.replace('o','a')
+split = list('new_word')
+
+print(new_word)
